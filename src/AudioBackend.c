@@ -99,6 +99,8 @@ static const cc_string alLib = String_FromConst("/System/Library/Frameworks/Open
 static const cc_string alLib = String_FromConst("/usr/pkg/lib/libopenal.so");
 #elif defined CC_BUILD_BSD
 static const cc_string alLib = String_FromConst("libopenal.so");
+#elif defined CC_BUILD_PSVITA
+static const cc_string alLib = String_FromConst("libopenal.suprx");
 #else
 static const cc_string alLib = String_FromConst("libopenal.so.1");
 #endif
