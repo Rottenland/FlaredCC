@@ -10,6 +10,9 @@
 *.VC.db
 *.VC.VC.opendb
 
+# Visual studio code files
+.vscode/settings.json
+
 # Android build results
 android/.cxx/
 android/.idea/
